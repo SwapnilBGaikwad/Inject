@@ -2,7 +2,7 @@
 
 ## Build status:
 
-[![Build Status](https://travis-ci.org/SwapnilBGaikwad/Collection.png)](https://travis-ci.org/SwapnilBGaikwad/Collection)
+[![Build Status](https://github.com/SwapnilBGaikwad/Inject/workflows/InjectBuild/badge.svg)](https://github.com/SwapnilBGaikwad/Inject/actions)
 
 [![codecov](https://codecov.io/gh/SwapnilBGaikwad/Collection/branch/master/graph/badge.svg)](https://codecov.io/gh/SwapnilBGaikwad/Collection)
 
