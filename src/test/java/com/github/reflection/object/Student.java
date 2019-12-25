@@ -1,7 +1,7 @@
-package app;
+package com.github.reflection.object;
 
-import reflection.Autowired;
-import reflection.Component;
+import com.github.reflection.Autowired;
+import com.github.reflection.Component;
 
 @Component
 public class Student {

@@ -1,7 +1,7 @@
-package app;
+package com.github.reflection.config;
 
-import reflection.Bean;
-import reflection.Configuration;
+import com.github.reflection.Bean;
+import com.github.reflection.Configuration;
 
 @Configuration
 public class Config {

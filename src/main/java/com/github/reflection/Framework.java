@@ -1,6 +1,5 @@
-package reflection;
+package com.github.reflection;
 
-import app.Main;
 import org.reflections.Reflections;
 
 import java.lang.annotation.Annotation;
@@ -13,7 +12,7 @@ import java.util.Set;
 public class Framework {
     private Map<Class<?>, ?> map;
 
-    public Framework(Class<Main> mainClass) throws Exception {
+    public Framework(Class<?> mainClass) throws Exception {
         map = processConfigBean(mainClass);
         init(mainClass);
     }
@@ -29,7 +28,7 @@ public class Framework {
         }
     }
 
-    private Map<Class<?>, Object> processConfigBean(Class<Main> mainClass) throws Exception {
+    private Map<Class<?>, Object> processConfigBean(Class<?> mainClass) throws Exception {
         Map<Class<?>, Object> map = new HashMap<>();
         Set<Class<?>> classes = new Reflections(mainClass.getPackage().getName()).getTypesAnnotatedWith(Configuration.class);
         for (Class<?> aClass : classes) {
